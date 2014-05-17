@@ -1,0 +1,30 @@
+{
+  "name": "my-mongo-list",
+  "version": "0.0.0",
+  "description": "NodeJs Course, ToDo list app",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --bail test"
+  },
+  "pre-commit" : [
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Axel92Dev/my-mongo-list.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/Axel92Dev/my-mongo-list/issues"
+  },
+  "devDependencies": {
+    "pre-commit": "0.0.7",
+    "chai": "~1.9.1",
+    "mocha": "~1.18.2",
+    "sinon": "~1.9.1"
+  },
+  "dependencies": {
+    "mongodb": "~1.4.4"
+  }
+}
