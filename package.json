@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha --bail test"
   },
-  "pre-commit" : [
+  "pre-commit": [
     "test"
   ],
   "repository": {
@@ -22,7 +22,8 @@
     "pre-commit": "0.0.7",
     "chai": "~1.9.1",
     "mocha": "~1.18.2",
-    "sinon": "~1.9.1"
+    "sinon": "~1.9.1",
+    "mongo-clean": "0.0.1"
   },
   "dependencies": {
     "mongodb": "~1.4.4"
